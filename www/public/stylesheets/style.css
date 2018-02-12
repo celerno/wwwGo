@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit !important;
+}
+
+body {
+  position: relative !important;
+ 
+  margin-bottom: 0px;
+  padding-bottom: 0rem !important;
+  min-height: 70%;
+  font-family: "Courier New", Arial, sans-serif;
+}
+.content{
+  position: relative !important;
+  margin-left: 80px;
+  margin-right:80px;
+  margin-top: 10%;
+}
+
+span.sp{
+  color:black;
+}
+span.en{
+  color:red;
+}
+/**
+ * Footer Styles
+ */
+.about{
+
+}
+.footer {
+  position: absolute !important;
+  right: 0;
+  bottom: 0px;
+  left: 80px;
+  padding: 1rem !important;
+  background-color: #efefef;
+  text-align: center;
+}
+.text-right{
+   float: right;
+   margin: 0 0 10px 10px;
+}
+.text-left{
+   float: left;
+   margin:10px 10px 0 0;
+}

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    meta(name='hablapormi' content='twitter.com/hablapormi')
+    script(src="/iris-ws.js")
+    script(src="/js/chat.js")
+    
+    list
+        ul Localiza la terminal de arriba
+        ul Escribe <i><b>algo</b><i>
+            ul <i>Hola, soy @</i>
+        ul revisa el timeline de @hablapormi
+
+        a(class="twitter-timeline", href="https://twitter.com/hablapormi") tuits de @hablapormi  </a>
+        script(async, src="//platform.twitter.com/widgets.js", charset="utf-8")
+    

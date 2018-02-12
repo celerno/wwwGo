@@ -1,0 +1,1 @@
+gifText(document,"I am the world's forgotten boy");

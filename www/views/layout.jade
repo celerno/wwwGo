@@ -1,0 +1,18 @@
+doctype html
+
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/terminal.css')
+		link(rel='stylesheet',href='https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/0.11.11/css/jquery.terminal.min.css')
+		script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/0.11.11/js/jquery.terminal.min.js')
+		script(src='/js/gif.js')
+		script(src='/js/gif.worker.js')    
+		script(src='/js/gifHelper.js')
+		link(rel='image_src', href='/images/me.jpg')
+	body
+		div(id='term_demo')
+			script(src='/js/layout.js')
+		block content

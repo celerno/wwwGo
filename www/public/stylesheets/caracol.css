@@ -1,0 +1,31 @@
+body {
+  
+}
+
+.container {
+  
+  text-align: center;
+  overflow: hidden;
+  max-width: 440px;
+  width: 440px;
+  height: 440px;
+}
+
+.box {
+    width: 21%;
+    height: 22%;
+    float: left;
+    background-color: rgb(195, 113, 76);
+    margin-bottom: 2px;
+    /* vertical-align: middle; */
+    text-align: center;
+    padding-top: 5px;
+    vertical-align: text-bottom;
+    font-size: -webkit-xxx-large;
+    font-family: monospace;
+    color: white;
+}
+.spacing {
+  margin-right: 2px;
+  
+}
