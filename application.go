@@ -1,7 +1,7 @@
 package main
 
 import (
-	"wwwGo/www"
+	"github.com/celerno/wwwGo/www"
 	"github.com/kataras/iris"
 	"github.com/kataras/golog"
 	"os"

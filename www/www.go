@@ -16,12 +16,12 @@ func Start(_app *iris.Application, _address string){
 	address = _address
 	//app.RegisterView(iris.HTML)
 	
-	templates, err = jade.CompileDir("./www/views", jade.DefaultDirOptions, jade.DefaultOptions)
+	templates, err = jade.CompileDir("./views", jade.DefaultDirOptions, jade.DefaultOptions)
 	if err!=nil {
 		panic(err)
 	}
 	setupWS(app)
-	app.StaticWeb("/", "./www/public")
+	app.StaticWeb("/", "./public")
 	app.Get("/", home)
 	log:=app.Logger()
 	log.SetLevel("DEBUG")
