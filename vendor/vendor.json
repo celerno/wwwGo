@@ -1,0 +1,24 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "q7OTHuhE+hZ+yJA6SO901AWXlvw=",
+			"path": "github.com/kataras/golog",
+			"revision": "dd676348ce75fa471fbbcd1bbbd131d00179756a",
+			"revisionTime": "2018-03-11T15:38:49Z"
+		},
+		{
+			"checksumSHA1": "w6ghDbAN1jrTTf9Q4y9cNat/9vo=",
+			"path": "github.com/kataras/iris",
+			"revision": "0c841013385c284695f2336b672101168d748480",
+			"revisionTime": "2018-03-10T17:52:41Z"
+		},
+		{
+			"checksumSHA1": "LNMKMmYYNipI1DkDqO7BmcLak6U=",
+			"path": "os",
+			"revision": ""
+		}
+	],
+	"rootPath": "github.com/celerno/wwwGo"
+}

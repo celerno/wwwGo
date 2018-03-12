@@ -1,1 +1,1 @@
-web:application
+web:chamizo-www-go
