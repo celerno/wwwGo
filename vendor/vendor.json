@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "BCsEGK55Z1VQwP2VlYENEkEhjiw=",
+			"path": "github.com/go-floki/jade",
+			"revision": "709925beb63a6eb71cb11403b71693fb5f206a29",
+			"revisionTime": "2015-03-15T10:35:54Z"
+		},
+		{
 			"checksumSHA1": "q7OTHuhE+hZ+yJA6SO901AWXlvw=",
 			"path": "github.com/kataras/golog",
 			"revision": "dd676348ce75fa471fbbcd1bbbd131d00179756a",
@@ -11,6 +17,12 @@
 		{
 			"checksumSHA1": "w6ghDbAN1jrTTf9Q4y9cNat/9vo=",
 			"path": "github.com/kataras/iris",
+			"revision": "0c841013385c284695f2336b672101168d748480",
+			"revisionTime": "2018-03-10T17:52:41Z"
+		},
+		{
+			"checksumSHA1": "Hza/xYWoxGbvm+9veXClpSx6F+c=",
+			"path": "github.com/kataras/iris/context",
 			"revision": "0c841013385c284695f2336b672101168d748480",
 			"revisionTime": "2018-03-10T17:52:41Z"
 		},
