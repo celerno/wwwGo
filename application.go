@@ -14,6 +14,8 @@ func main() {
 	url := os.Getenv("PORT")
 	if len(url) == 0 {
 		url=":5000"
+	}else {
+		url = ":80"
 	}
 	www.Start(app, url)
 }
