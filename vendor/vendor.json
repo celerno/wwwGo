@@ -444,11 +444,6 @@
 			"path": "gopkg.in/yaml.v2",
 			"revision": "0c841013385c284695f2336b672101168d748480",
 			"revisionTime": "2018-03-10T17:52:41Z"
-		},
-		{
-			"checksumSHA1": "LNMKMmYYNipI1DkDqO7BmcLak6U=",
-			"path": "os",
-			"revision": ""
 		}
 	],
 	"rootPath": "github.com/celerno/wwwGo"
